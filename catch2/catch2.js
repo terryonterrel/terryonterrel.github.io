@@ -6,7 +6,7 @@ var gameState = "L1";
 var img, img2, img3, img4;
 
 function preload() {
-  img = loadImage('https://terryonterrel.github.io/images/Unknown.jpeg');
+  img = loadImage('https://terryonterrel.github.io/images/flyboy.png');
     img2 = loadImage('https://terryonterrel.github.io/images/images.jpeg');
       img3 = loadImage('https://terryonterrel.github.io/images/images-1.jpeg');
         img4 = loadImage('https://terryonterrel.github.io/images/images-2.jpeg');
