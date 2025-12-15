@@ -1,35 +1,71 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
 <head>
-<title>Bryant portfolio</title>
+  <meta charset="utf-8" />
+  <title>Terry Bryant Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      background-color: #121212;  /* dark background */
+      color: #e0e0e0;             /* light text */
+    }
+
+    h1, h2, h5, h6 {
+      color: #ffffff;
+    }
+
+    figure img {
+      border: 2px solid #333;
+    }
+
+    figcaption p {
+      color: #b0b0b0;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Terry Bryant Portfolio</h1>
+  <!-- ORIGINAL LIGHT BOOTSTRAP NAVBAR (UNCHANGED STYLE) -->
+  <nav class="navbar navbar-expand-sm bg-light">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="netart/index0.html">Net Art</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://terrybryantportfolio.weebly.com" target="_blank">Weebly Website</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home Index</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects/index11.html">Meme Mashup</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects/index10.html">Minecraft Art / 3D Print</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<nav class="navbar navbar-expand-sm bg-light">
+  <!-- Main content -->
+  <main class="container text-center mt-4">
+    <header class="mb-4">
+      <h1 class="mb-3">Terry Bryant Portfolio</h1>
+      <h2 class="h4">Studio Artist</h2>
+    </header>
 
-<div class="container-fluid">
-<ul class="navbar-nav">
-  <li class="nav-item"><a class="nav-link" href="netart/index0.html">Net Art </a></li>
-  <li class="nav-item"><a class="nav-link"href="https://terrybryantportfolio.weebly.com">Weebly Website</a></li>
-<li class="nav-item"><a class="nav-link" href="projects/index.html">Home Index</a></li>
-<li class="nav-item"><a class="nav-link" href="projects/index11.html">Meme Mashup</a></li>
-<li class="nav-item"><a class="nav-link" href="projects/index10.html">Minecraft Art/3D Print</a></li>
-</ul>
-</nav>
+    <figure class="mx-auto" style="max-width: 500px;">
+      <img
+        src="img_33.jpeg"
+        class="img-fluid rounded shadow"
+        alt="Six Stages of Grief artwork in charcoal and graphite pencil"
+      >
+      <figcaption class="mt-3">
+        <h5 class="mb-1">Six Stages of Grief</h5>
+        <p class="mb-0">Charcoal and graphite pencil</p>
+      </figcaption>
+    </figure>
+  </main>
 
-<h2>Studio Artist</h2>
-<img src="img_33.jpeg" alt="artwork" width="500" height="600"class="mx-auto d-block img-fluid">
-
-<h5>Six Stages of Grief</h5>
-<h6>Charcoal and graphite pencil</h6>
-
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
